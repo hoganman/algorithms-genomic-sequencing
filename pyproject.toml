@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "algorithms-genomic-sequencing"
+version = "0.1.0"
+description = ""
+authors = ["Matthew G. Hogan <matthewghogan _at_ proton .dot. me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11.0"
+jupyter = "^1.0.0"
+biopython = "^1.80"
+black = "^22.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
