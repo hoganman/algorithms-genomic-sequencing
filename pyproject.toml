@@ -6,10 +6,11 @@ authors = ["Matthew G. Hogan <matthewghogan _at_ proton .dot. me>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.10.8"
-jupyter = "^1.0.0"
 biopython = "^1.80"
 black = "^22.10.0"
+matplotlib = "^3.6"
+jupyter = "^1.0.0"
+python = "3.10.8"
 
 
 [build-system]
