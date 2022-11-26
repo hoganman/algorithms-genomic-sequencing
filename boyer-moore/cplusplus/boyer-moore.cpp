@@ -4,7 +4,6 @@
 
 #include "boyer-moore.h"
 #include <iomanip>
-#include <algorithm>
 #include <functional>
 
 unsigned long long boyer_moore(std::string &pat, std::string &tex){
