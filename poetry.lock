@@ -1088,6 +1088,22 @@ packaging = "*"
 test = ["pytest (>=6,!=7.0.0,!=7.0.1)", "pytest-cov (>=3.0.0)", "pytest-qt"]
 
 [[package]]
+name = "scipy"
+version = "1.9.3"
+description = "Fundamental algorithms for scientific computing in Python"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.dependencies]
+numpy = ">=1.18.5,<1.26.0"
+
+[package.extras]
+test = ["pytest", "pytest-cov", "pytest-xdist", "asv", "mpmath", "gmpy2", "threadpoolctl", "scikit-umfpack"]
+doc = ["sphinx (!=4.1.0)", "pydata-sphinx-theme (==0.9.0)", "sphinx-panels (>=0.5.2)", "matplotlib (>2)", "numpydoc", "sphinx-tabs"]
+dev = ["mypy", "typing-extensions", "pycodestyle", "flake8"]
+
+[[package]]
 name = "send2trash"
 version = "1.8.0"
 description = "Send file to trash natively under Mac OS X, Windows and Linux."
@@ -1265,7 +1281,7 @@ python-versions = ">=3.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "3.10.8"
-content-hash = "924b3c70a36034e681ded43f3f2d9763ae4301ac0bd7f71ab2eb508cec0265f8"
+content-hash = "3fe73cf1fe7d2ce78abeb05a25fa1af93eb8a4b7da823c60760376e298eebfcd"
 
 [metadata.files]
 anyio = []
@@ -1349,6 +1365,7 @@ pywinpty = []
 pyzmq = []
 qtconsole = []
 qtpy = []
+scipy = []
 send2trash = []
 setuptools-scm = []
 six = []

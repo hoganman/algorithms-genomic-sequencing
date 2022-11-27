@@ -12,6 +12,7 @@ matplotlib = "^3.6"
 jupyter = "^1.0.0"
 python = "3.10.8"
 pytest = "^7.2.0"
+scipy = "^1.9.3"
 
 
 [build-system]
